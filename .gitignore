@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local scratch work (notebooks, one-off scripts, HF cache)
+/dev/
+
+# Datasets
+/dataset/
+
+# Training / evaluation outputs (written by scripts/ via SLURM --output and --output_dir)
+/evals/
+/vl_pretrain/
+/vl_finetune/
+/stage2/
+/debug/
+/eval_rec/
+/eval_gqa/
+/eval_mmgcot/
+/eval_heuristicbase/
+/eval_heuristicbase_test/
+/runs/
+/wandb/
+checkpoint-*/
+*.log
+*.out
+evals/
+scripts/
+
+# Personal cluster sync helpers
+/forward.sh
+/backward.sh

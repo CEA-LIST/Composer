@@ -1,0 +1,5 @@
+datasets:
+  - type: cc3m
+    ann_file: dataset/cc3m/chat.json
+    img_prefix: dataset/cc3m/images
+    conv_temp: llava

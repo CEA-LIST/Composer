@@ -1,0 +1,46 @@
+datasets:
+  - type: heuristicbase
+    ann_file: dataset/heuristicbase/ann.jsonl
+    img_prefix: dataset/heuristicbase/images
+    conv_temp: llava
+
+  - type: cc3m
+    ann_file: dataset/cc3m/chat.json
+    img_prefix: dataset/cc3m/images
+    conv_temp: llava
+
+  - type: flickr
+    ann_file: dataset/flickr30k/ann/flickr30k_entities_train.json
+    img_prefix: dataset/flickr30k/images
+    conv_temp: llava
+
+  - type: refcoco
+    ann_file: dataset/refcoco/ann/refcoco_train.json
+    img_prefix: dataset/coco/train2017
+    conv_temp: llava
+
+  - type: refcoco
+    ann_file: dataset/refcocog/ann/refcocog_train.json
+    img_prefix: dataset/coco/train2017
+    conv_temp: llava
+
+  - type: refcoco
+    ann_file: dataset/refcocoplus/ann/refcocoplus_train.json
+    img_prefix: dataset/coco/train2017
+    conv_temp: llava
+
+  - type: coco
+    ann_file: dataset/coco/ann/instances_train2017.json
+    img_prefix: dataset/coco/train2017
+    conv_temp: llava
+
+  - type: vg
+    ann_file: dataset/vg/ann/vg_train_single.json
+    img_prefix: dataset/vg/images
+    conv_temp: llava
+    ratio: 0.3
+
+  - type: gvsr
+    ann_file: dataset/gvsr/ann/gvsr.jsonl
+    img_prefix: dataset/coco/train2017
+    conv_temp: llava

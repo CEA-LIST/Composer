@@ -1,0 +1,5 @@
+datasets:
+  - type: heuristicbase
+    ann_file: dataset/heuristicbase/ann.jsonl
+    img_prefix: dataset/heuristicbase/images
+    conv_temp: llava
